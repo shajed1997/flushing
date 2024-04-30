@@ -1,0 +1,37 @@
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 9470978059a344cc9f46fd80a12ecef7.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 9470978059a344cc9f46fd80a12ecef7.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 9470978059a344cc9f46fd80a12ecef7.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 9470978059a344cc9f46fd80a12ecef7.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: 9470978059a344cc9f46fd80a12ecef7.vfs.cloud9.us-east-1.amazonaws.com
+Started GET "/" for 47.230.48.168 at 2024-04-30 05:05:12 +0000
+Cannot render console from 47.230.48.168! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 374)
+Completed 200 OK in 28ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 4941)
+
+
+Started GET "/" for 47.230.48.168 at 2024-04-30 05:07:03 +0000
+Cannot render console from 47.230.48.168! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 184)
+  Rendered layout layouts/application.html.erb (Duration: 1213.2ms | Allocations: 88583)
+Completed 200 OK in 1230ms (Views: 1223.1ms | ActiveRecord: 0.0ms | Allocations: 92678)
+
+
+Started GET "/" for 47.230.48.168 at 2024-04-30 05:08:25 +0000
+Cannot render console from 47.230.48.168! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 63.7ms | Allocations: 17392)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms | Allocations: 18306)
+
+
